@@ -4,7 +4,7 @@
   padding-bottom: 60px;
 }
 .footer-logo {
-  font-family: "Raleway";
+  font-family: var(--Raleway);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -61,7 +61,7 @@
   }
 }
 .footer-logo-help {
-  font-family: "Raleway";
+  font-family: var(--Raleway);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;

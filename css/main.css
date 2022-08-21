@@ -428,7 +428,7 @@ body {
 
 .logo {
   text-decoration: none;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--Raleway);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -816,7 +816,7 @@ body {
 }
 
 .footer-logo {
-  font-family: "Raleway";
+  font-family: var(--Raleway);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -877,7 +877,7 @@ body {
 }
 
 .footer-logo-help {
-  font-family: "Raleway";
+  font-family: var(--Raleway);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -947,4 +947,6 @@ body {
   --portfolio-btn-color: #f5f4fa;
   --portfolio-btn-hover-color: #2196f3;
   --footer-back-color: #2f303a;
+  --Roboto: "Roboto", sans-serif;
+  --Raleway: "Raleway", sans-serif;
 }/*# sourceMappingURL=main.css.map */
